@@ -1,0 +1,22 @@
+{
+    "name": "LengthConditional",
+    "data": {
+        "audio": {
+            "featurizer": {
+                "name": "Kaldi",
+                "kaldi_eg": "kaldi/egs/tedlium/s5_r3/",
+                "max_lines_per_scp": 100
+            },
+            "context": 301
+        },
+        "text": {
+            "featurizer": {
+                "name": "BERTMLP",
+                "config": "configs/feats/BERTMLP.json"
+            }
+        }
+    },
+    "model": {
+        "partitions": 5
+    }
+}

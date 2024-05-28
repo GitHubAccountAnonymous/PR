@@ -1,0 +1,14 @@
+{
+    "name": "BERTMLP",
+    "data": {
+        "text": {
+            "featurizer": {
+                "name": "BERTMLP",
+                "config": "configs/feats/BERTMLP.json"
+            }
+        }
+    },
+    "model": {
+        "linear": [768, 128, 4]
+    }
+}
