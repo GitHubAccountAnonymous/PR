@@ -5,7 +5,7 @@
 
 Install this framework by using
 ```bash
-git clone https://github.com/lxy-peter/PunctuationRestoration
+git clone https://github.com/GitHubAccountAnonymous/PunctuationRestoration
 bash setup.sh
 ```
 Please install the following extra items as needed.
